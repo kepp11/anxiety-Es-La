@@ -6,7 +6,7 @@ SceneSetup.act1();
 
 (...300)
 
-n: Y ESTA ES SU ANCIEDAD
+n: Y ESTA ES SU ANSIEDAD
 
 n: _TU_ ERES LA ANSIEDAD
 
@@ -84,7 +84,7 @@ b: NOS HARÁ SALTAR DEL TECHO.
 
 `bb({body:"fear"});`
 
-b: TODAS ESAS COSAS TERRIBLES NOS PASARÁN Y LUEGO VAMOS A--
+b: TODAS ESAS COSAS TERRIBLES NOS PASARÁN Y LUEGO--
 
 (#act1_replay_end)
 
@@ -96,7 +96,7 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Bueno, la historia *en si* es la misma, pero cada capítulo tiene dos posibles finales, y todas las opciones de diálogo alt--
+h: Bueno, la historia *en si* es la misma, pero cada capítulo tiene dos posibles finales, y todas las opciones de diálogo alternati--
 
 `bb({body:"fear"});`
 
@@ -132,7 +132,7 @@ b: Y desmantelando el tejido de este universo narrativo,
 
 `bb({body:"fear"});`
 
-b: Por lo que--
+b: Por lo--
 
 (#act1_replay_end)
 
@@ -216,7 +216,7 @@ n4: ¡DEJA QUE _TU_ ANSIEDAD JUEGUE! ELIGE LO MÁS PARECIDO A LO QUE _TU_ MIEDO 
 
 [¡Estamos comiendo solos! ¡Otra vez!](#act1a_alone) `bb({body:"squeeze_talk"})`
 
-[¡No estamos siendo productivos mientras comemos!](#act1a_productive) `bb({body:"squeeze_talk"})`
+[¡No somos productivos mientras comemos!](#act1a_productive) `bb({body:"squeeze_talk"})`
 
 [¡Ese pan blanco nos hace daño!](#act1a_bread) `bb({body:"squeeze_talk"})`
 
@@ -275,7 +275,7 @@ b: ¡Saca tu laptop y busca un trabajo ahora mismo!
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, prefiero no tener migas de pan en mi tecl--
+h: Um, prefiero no tener migas de pan en mi teclad--
 
 ```
 bb({mouth:"normal", eyes:"fear"});
@@ -605,7 +605,7 @@ h: ¿Qué hay en twitter?
 
 [¡Oh no, que historia tan horrible!](#act1d_news)
 
-[¡Oh no, ese tweet secretamente habla de *nosotros*!](#act1d_subtweet)
+[¡Oh no, ese tweet habla de *nosotros*!](#act1d_subtweet)
 
 [Hey, un GIF de un gatito bebiendo leche](#act1d_milk)
 
@@ -735,7 +735,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: LOS GATOS NO PUEDEN DIGERIR LA LECHE Y ESTAMOS SIENDO PERSONAS HORRIBLES POR APOYAR EL ABUSO ANIMAL
+b: LOS GATOS NO PUEDEN DIGERIR LA LECHE Y SOMOS PERSONAS HORRIBLES POR APOYAR EL ABUSO ANIMAL
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"fear"});
@@ -804,7 +804,7 @@ bb({eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: ¿Contaban con nosotros para estar en esa fiesta y ahora vamos a traicionar su confianza? ¡¿Acaso quieres morir sola?!
+b: ¿Contaban con nosotros para estar en esa fiesta y ahora vamos a traicionar su confianza? ¡¿Acaso quieres morir solo?!
 
 {{if _.fifteencigs}}
 b: QUINCE. CIGARRILLOS.
@@ -912,7 +912,7 @@ h: Talvez no debí rechazar esa invitación...
 
 b: ¡Todos estaban contando con nosotros!
 
-b: ...Para que los dejemos solos y puedan tener una buena fiesta sin una asquerosa ^mierda^ {{if _.whitebread}}Mastica-pan-blanco{{/if}} como nos--
+b: ...Para que los dejemos solos y puedan tener una buena fiesta sin una asquerosa ^mierda^ {{if _.whitebread}}Mastica-pan-blanco{{/if}} como nosotro--
 
 
 ```
@@ -1072,7 +1072,7 @@ h: Talvez no debí ignorar esa invitación...
 
 `bb({mouth:"normal", eyes:"normal"});`
 
-[Sigue ignorándola, seguimos siendo unos arruina fiestas.](#act1e_ignore_continue)
+[ignórala, aún somos unos arruina fiestas.](#act1e_ignore_continue)
 
 [¡Acéptala!](#act1e_ignore_changetoyes)
 
@@ -1129,7 +1129,7 @@ hong({mouth:"neutral", eyes:"neutral"});
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: Olvídalo. Nuevas notificaciones de Tinder.
+h: Hey. Nuevas notificaciones de Tinder.
 
 `bb({eyes:"uncertain"})`
 
@@ -1170,7 +1170,7 @@ b: PELIGRO PELIGRO PELIGRO PELIGRO PELIGRO PELIGRO PELIGRO PELIGRO
 
 [Estamos usando a las otras personas.](#act1f_using_others)
 
-[TU CITA ES UN ASESINO EN SERIE](#act1f_killer)
+[TU CITA ES UN ASESINO SERIAL](#act1f_killer)
 
 # act1f_used_by_others
 
@@ -1299,7 +1299,7 @@ b: ¡Te encerrará en un pozo y te forzará a comer pan blanco para engordarte y
 {{/if}}
 
 {{if _.parasite}}
-b: Te aporreará con un podómetro y te dirá “DEBERÍAS SER MÁS PRODUCTIVO, ^MALDITO^ PARACITO”
+b: Te aporreará con un podómetro y te dirá "DEBERÍAS SER MÁS PRODUCTIVO, ^MALDITO^ PARACITO"
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
@@ -1349,7 +1349,7 @@ h:
 {{if _.hookuphole}}"Vamos a morir solos"... {{/if}}
 {{if _.serialkiller}}"Es un asesino serial"... {{/if}}
 {{if _.catmilk}}"Los gatos no pueden digerir la leche"... {{/if}}
-{{if _.pokemon}}a ^Una parodia horrible de una canción... {{/if}}
+{{if _.pokemon}} Una parodia horrible de una canción... {{/if}}
 
 h: Solo quiero vivir mi vida.
 
@@ -1420,14 +1420,15 @@ b: Hablando de fiestas, sobre la de este fin de semana. Esta es mi DECISIÓN FIN
 
 b: Mejo--
 
+`hong({body:"2_you"});`
+
+h: *TU.*
+
+
 ```
 bb({eyes:"wat", mouth:"small"});
 hong({body:"2_fuck"});
 ```
-
-h: *TU.*
-
-`hong({body:"2_you"});`
 
 h: *VETE A LA ^MIERDA^.*
 
@@ -1588,7 +1589,7 @@ n: ELIGE TU ÚLTIMO MOVIMIENTO
 
 `bb({mouth:"small_lock", eyes:"fear"});`
 
-n: *ACABALO*
+n: *ACÁBALO*
 
 [{LUCHAR: ¡Deshazte de tu estresante teléfono!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
 
@@ -1644,7 +1645,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "flight";
 ```
 
-b: ¡Enróllate y llora! ¡Enróllate y llora! ¡Enróllate y llora! ¡Enróllate y llora! ¡Enróllate y llora! ¡Enróllate y--
+b: ENRÓLLATE Y LLORA ENRÓLLATE Y LLORA ENRÓLLATE Y LLORA ENRÓLLATE Y LLORA ENRÓLLATE Y LLORA ENRÓLLATE Y--
 
 (#act1j)
 

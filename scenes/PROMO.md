@@ -14,13 +14,13 @@
 
 `clearText()`
 
-n3: So before we start, how would *you* like to read?
+n3: Antes de comenzar, ¿Como te gustaría leer?
 
 `publish("show_options_bottom")`
 
 # intro-start-2
 
-n3: Now, let's begin our story...
+n3: Ahora empezemos nuestra história...
 
 ```
 publish("hide_tabs");
@@ -31,7 +31,7 @@ clearText();
 
 `publish("intro-to-game-2")`
 
-n2: THIS IS A HUMAN
+n2: ESTE ES UN HUMANO
 
 (...600)
 
@@ -51,9 +51,9 @@ music('battle', {volume:0.5});
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: Y ESTA ES SU ANSIEDAD
 
-n: _YOU_ ARE THE ANXIETY
+n: _TU_ ERES LA ANSIEDAD
 
 (#act1_normal)
 
@@ -66,39 +66,39 @@ sfx("rustle");
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Nope. No, nope, not listening. Gonna check my phone.
+h: Nope. No, no escucho. Estoy viendo mi teléfono.
 
 ```
 sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: TU TRABAJO ES PROTEGER A TU HUMANO DEL *PELIGRO*
 
 `bb({eyes:"look", mouth:"small_lock", body:"fear"})`
 
-b: Gasp! You're scrolling your life away on Twitter! Again!
+b: Gasp! ¡Estás tirando tu vida en Twiter! ¡Otra vez!
 
 ```
 bb({eyes:"normal", mouth:"normal", body:"normal"});
 hong({eyes:"annoyed"});
 ```
 
-h: Yeah I wonder why I don't just sit and listen to my thoughts more often.
+h: Si, me pregunto por qué no me siento a escuchar mis pensamientos mas seguido.
 
 `hong({eyes:"neutral"});`
 
-n: QUICK, WARN THEM ABOUT A *DANGER!*
+n: ¡RÁPIDO! ¡DEBES PREVENIRLO DEL *PELIGRO*!
 
 ```
 bb({eyes:"look"});
 ```
 
-[Oh no, look at that horrible news story!](#act1d_news)
+[¡Oh no, que historia tan horrible!](#act1d_news)
 
-[Oh no, is that tweet secretly about *us?*](#act1d_subtweet)
+[¡Oh no, ese tweet habla de *nosotros*!](#act1d_subtweet)
 
-[Hey, a GIF of a cat drinking milk](#act1d_milk)
+[Hey, un GIF de un gatito bebiendo leche](#act1d_milk)
 
 # act1d_milk
 
@@ -112,7 +112,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: CATS CAN'T DIGEST MILK AND WE'RE TERRIBLE PEOPLE FOR ENJOYING ANIMAL ABUSE
+b: LOS GATOS NO PUEDEN DIGERIR LA LECHE Y SOMOS PERSONAS HORRIBLES POR APOYAR EL ABUSO ANIMAL
 
 (...200)
 
