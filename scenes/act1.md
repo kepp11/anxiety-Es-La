@@ -1231,7 +1231,7 @@ bb({mouth:"normal"});
 Game.FORCE_TEXT_DURATION = 2400;
 ```
 
-b: ♫ Tengo que ser, siempre un ^ching^ón-
+b: ♫ Tengo que ser, un degenerado-
 
 (...500)
 
@@ -1277,7 +1277,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: El punto es que somos unos sucios manipuladores.
+b: El punto es que somos unos manipuladores.
 
 ```
 hong({mouth:"shock", eyes:"shock"});
