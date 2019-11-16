@@ -378,7 +378,7 @@ b: Oh ¿"Necesitas darle su propio significado"? ¡Eso es lo que los fanáticos 
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: ¡La vida no tiene significado! ¡La muerte no tiene significado! ¡Incluso el *significado* no tiene significado! Qué se supone que un alma mortal--
+b: ¡La vida no tiene significado! ¡La muerte no tiene significado! ¡Incluso el *significado* no tiene significado! Qué se supone que un alma mortal hag--
 
 ```
 _.a2_first_danger = 'meaning';
@@ -939,7 +939,7 @@ h: *Soy querido, soy bueno, soy listo, soy apuesto. Soy especial.*
 
 [las afirmaciones ya fueron *desaprobadas*](#act2d_disproven)
 
-[No le acredites historias random a los indígenas.](#act2d_racist)
+[No le acredites historias a los indígenas.](#act2d_racist)
 
 # act2d_disproven
 
@@ -1027,7 +1027,7 @@ attack("10p", "bad");
 
 # act2e
 
-h: ^COÑ^.
+h: AGH
 
 `hong({body:"yell", mouth:"yell"})`
 
@@ -1152,7 +1152,7 @@ h: No puedo calmarte, no puedo ignorarte, no puedo pelear contigo.
 
 `bb({eyes:"suspect"});`
 
-h: No importa lo que haga, no puedo deshacerme de t-
+h: No importa lo que haga, no puedo deshacerme de t--
 
 `bb({body:"cry_1"});`
 
@@ -1264,11 +1264,11 @@ publish("act2",["party_hong",19]);
 ```
 
 {{if _.act1_ending=="fight"}}
-r: ¡Oí que ayer alguien sufrió un una crisis nerviosa y destruyó su teléfono en el campus!
+r: ¡Oí que alguien ayer sufrió un una crisis nerviosa y destruyó su teléfono en el campus!
 {{/if}}
 
 {{if _.act1_ending=="flight"}}
-r: ¡Si, oí que ayer alguien se enrolló como un armadillo y empezó a llorar en público!
+r: ¡Si, oí que alguien ayer se enrolló como armadillo y empezó a llorar en público!
 {{/if}}
 
 ```
@@ -1539,7 +1539,7 @@ b: ¡Está tratando de corromperte! ¡Quiere arruinarte como están ellos!
 
 `bb({ body:"yell_angry_1" });`
 
-b: ¡Golpea a esa idiota! ¡Apágale malditas luces! 
+b: ¡Golpea a esa idiota! ¡Apágale las ^malditas^ luces! 
 
 `bb({ body:"final_1" });`
 
