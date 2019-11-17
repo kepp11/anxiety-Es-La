@@ -85,7 +85,7 @@ publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hola…
+h2: h-hola...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -100,7 +100,7 @@ publish("act2",["dum",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: b… buena fiesta…
+h2: b... buena fiesta...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -134,7 +134,7 @@ publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hola…
+h2: h-hola...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -142,14 +142,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",1]);
 ```
 
-a: Escrito en esta tesis
+a: Explica tu tésis
 
 ```
 publish("act2",["dum",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: b…buena fiesta…
+h2: b...buena fiesta...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -1164,7 +1164,7 @@ b: ¡¿Cómo crees que *yo* me siento, humano?!
 
 `bb({body:"cry_4", mouth:"cry", eyes:"cry"})`
 
-b: ¡Trato de dar lo mejor para ser tu perro guardián, pero tú me sigues viendo como un lobo malo!
+b: ¡Trato de dar lo mejor para ser tu perro guardián, pero tú me sigues viendo como un lobo feroz!
 
 b: ¡Así que me esfuerzo *más* para avisarte del peligro! ¡*Más* peligro! ¡*Diferente* peligro!
 

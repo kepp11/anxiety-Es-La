@@ -381,7 +381,7 @@ music('dontfight',{fade:5, volume:0.6});
 bb({eyes:"annoyed_d"});
 ```
 
-b: No soy un lobo malo. Pero tampoco soy un lobo guardián.
+b: No soy un lobo feroz. Pero tampoco soy un lobo guardián.
 
 `bb({eyes:"sad_d"})`
 
@@ -882,7 +882,7 @@ b: ¿Más dudas, humano?
 
 [Veamos si le agradamos a la gente.](#act4_alone_experiment)
 
-[Gracias.](#act4_thanks) `_.thanks_for = "social belonging";`
+[Gracias.](#act4_thanks) `_.thanks_for = "bien social";`
 
 # act4_alone_skills
 
@@ -1196,11 +1196,11 @@ bb({eyes:"normal"});
 hong({body:"chin"});
 ```
 
-h: Creemos mejores hábitos lentamente, tengamos nuestra vida en mejor equilibrio con lo que queremos,
+h: Creemos mejores hábitos poco a poco, tengamos nuestra vida en mejor equilibrio con lo que queremos,
 
 `hong({body:"one_up"});`
 
-h: Y si lo necesitamos, podemos conseguir ayuda profesional - un terapeuta o consejero.
+h: Y si lo necesitamos, podemos conseguir ayuda profesional, un terapeuta o consejero.
 
 `hong({body:"normal"});`
 
@@ -1267,7 +1267,7 @@ b: Duele admitirlo pero... una parte de mi *quiere* mantener este desorden.
 
 `bb({ eyes:"angry" })`
 
-b: Digo, sin él, ¿no seríamos aburridos?
+b: Digo, ¿No seríamos aburridos sin él?
 
 `bb({ eyes:"sad_r", body:"one_up" })`
 
@@ -1844,7 +1844,7 @@ b: ¡Ayúdame a ayudarte!
 
 `publish("act4", ["bb_closer", 6]);`
 
-b: Sin embargo, enseñarle a un perro viejo trucos nuevos toma tiempo, quizás años.
+b: Aunque, enseñarle a un perro viejo trucos nuevos toma tiempo, quizás años.
 
 `publish("act4", ["bb_closer", 3]);`
 

@@ -51,7 +51,7 @@ publish("act3",["roofhunter",9]);
 publish("act3",["roofhong",2]);
 ```
 
-r: Estoy feliz por poder devolver eso y ayudarte a domar a tu bestia como yo maté a la mía.
+r: Estoy feliz por poder devolver eso y ayudarte a domar a tu bestia como yo domé a la mía.
 
 ```
 publish("act3",["roofhunter",2]);
@@ -570,7 +570,7 @@ b: ESPERA ESO ERA PSICOLOGÍA INVERSA SE SUPONE QUE DEBÍAS HACER LO OPUESTO A L
 
 `bb({ eyes:"angry" });`
 
-b: Te estás poniendo en peligro. Tus *así llamados* amigos te están usando. Y tú estás usando a tus *así llamados* amigos.
+b: Te estás poniendo en peligro. Tus supuestos "amigos" te están usando. Y tú estás usando a tus supuestos "amigos".
 
 `bb({ eyes:"sad" });`
 

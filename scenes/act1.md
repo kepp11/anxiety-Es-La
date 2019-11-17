@@ -132,7 +132,7 @@ b: Y desmantelando el tejido de este universo narrativo,
 
 `bb({body:"fear"});`
 
-b: Por lo--
+b: Por lo que--
 
 (#act1_replay_end)
 
@@ -860,7 +860,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 2.5;
 ```
 
-b: Recházala Recházala Recházala Recházala Recházala Recházalala RECH-
+b: RECHÁZALA RECHÁZALA RECHÁZALA RECHÁZALA RECHÁZALA RECHÁZALALA RECH-
 
 
 ```
@@ -1307,7 +1307,7 @@ b: ¡Desgarrará tu carne y hará confeti sangriento con ella, convertirá tus e
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
-b: ¡¿TANTO por una invitación a una fiesta?!
+b: ¡¿Todo por una invitación a una fiesta?!
 {{/if}}
 
 ```

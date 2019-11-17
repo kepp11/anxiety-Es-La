@@ -100,7 +100,7 @@ n3: Antes de comenzar, ¿Como te gustaría leer?
 
 # intro-start-2
 
-n3: ¡Bien! Nota: Siempre puedes cambiar las opciones con el icono de ⚙ abajo. Ademas, El juego se guarda automáticamente en cada capítulo.
+n3: ¡Bien! Nota: Siempre puedes cambiar las opciones con el icono de ⚙ abajo. Ademas, el juego se guarda automáticamente en cada capítulo.
 
 n3: (Nota Del Traductor: Originalmente no se especifica el género de NINGÚN personaje. Ya sabes, depende de ti ...y de tus gustos.)
 
