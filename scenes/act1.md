@@ -8,7 +8,7 @@ SceneSetup.act1();
 
 n: Y ESTA ES SU ANSIEDAD
 
-n: _TU_ ERES LA ANSIEDAD
+n: _TÚ_ ERES LA ANSIEDAD
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
@@ -32,7 +32,7 @@ n: TU TRABAJO ES PROTEGER A TU HUMANO DEL *PELIGRO*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: DE HECHO, REJUGAR ESTE JUEGO LO ESTÁ PONIENDO EN *PELIGRO* JUSTO AHORA
+n: DE HECHO, VOLVER A JUGAR ESTE JUEGO LO ESTÁ PONIENDO EN *PELIGRO* JUSTO AHORA
 
 n: ¡RÁPIDO! ¡DEBES PREVENIRLO!
 
@@ -96,7 +96,7 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Bueno, la historia *en si* es la misma, pero cada capítulo tiene dos posibles finales, y todas las opciones de diálogo alternati--
+h: Bueno, la historia *en sí* es la misma, pero cada capítulo tiene dos posibles finales, y todas las opciones de diálogo alternati--
 
 `bb({body:"fear"});`
 
@@ -112,11 +112,11 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: ...¿que?
+h: ...¿qué?
 
 `bb({eyes:"normal"});`
 
-b: La historia se trata de como tienes la *opción* de construir una relación *sana* con tus miedos,
+b: La historia se trata de cómo tienes la *opción* de construir una relación *sana* con tus miedos,
 
 `bb({eyes:"normal_right"});`
 
@@ -170,7 +170,7 @@ h: Ok, volvamos al personaje.
 Game.clearText();
 ```
 
-n4: (DEJA QUE _TU_ ANSIEDAD *BLAH BLAH BLAH* LO MAS PARECIDO A COMO TU MIEDO *BLAH BLAH BLAH* YA SABES)
+n4: (DEJA QUE _TU_ ANSIEDAD *BLAH BLAH BLAH* LO MÁS PARECIDO A COMO TU MIEDO *BLAH BLAH BLAH* YA SABES)
 
 ```
 sfx("squeak");
@@ -227,7 +227,7 @@ bb({body:"normal", mouth:"small", eyes:"narrow"});
 hong({body:"0_sammich"});
 ```
 
-b: ¿No sabes que la soledad está asociada con la muerte prematura tanto como fumar 15 cigarrillos al día?-
+b: ¿No sabes que la soledad está asociada con la muerte prematura al igual que fumar 15 cigarrillos al día?-
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
@@ -237,7 +237,7 @@ b: (Por Holt-Lunstad 2010, en la revista PLoS Med)
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, gracias por citarla pero--
+h: Um, gracias por citarlo pero--
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
@@ -282,9 +282,9 @@ bb({mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: ¡Si no contribuimos al cuerpo de la sociedad entonces somos unos paracitos de la sociedad!
+b: ¡Si no contribuimos al cuerpo de la sociedad entonces somos unos parásitos de la sociedad!
 
-b: El cuerpo de la sociedad irá con el doctor de la sociedad por un medicamento para matar a sus paracitos de la sociedad y luego--
+b: El cuerpo de la sociedad irá con el doctor de la sociedad por un medicamento para matar a sus parásitos de la sociedad y luego--
 
 ```
 bb({body:"panic", mouth:"normal", eyes:"fear"});
@@ -359,7 +359,7 @@ b: ¡Confía en tus instintos! ¡Tus miedos siempre son válidos!
 
 n: LLEVA LA BARRA DE ENERGÍA DE TU HUMANO A CERO
 
-n: PARA PROTEGER SUS NECESIDADES FÍSICAS + SOCIALES + MORALES PUESDES USAR:
+n: PARA PROTEGER SUS NECESIDADES FÍSICAS + SOCIALES + MORALES PUEDES USAR:
 
 n: MIEDO A *SER HERIDO* #harm#
 
@@ -369,7 +369,7 @@ n: MIEDO A *SER UNA MALA PERSONA* #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
-n4: (UN CONSEJO: ELIJE LAS OPCIONES QUE TOQUEN PERSONALMENTE TUS MÁS PROFUNDOS MIEDOS)
+n4: (UN CONSEJO: ELIJE LAS OPCIONES QUE TOQUEN TUS MÁS PROFUNDOS MIEDOS)
 
 h: ...
 
@@ -392,7 +392,7 @@ hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 
 n: PROTEGE A TU HUMANO
 
-n: DEL MUNDO. DE OTRAS PERSONAS. DE SI MISMO.
+n: DEL MUNDO. DE OTRAS PERSONAS. DE SÍ MISMO.
 
 n: BUENA SUERTE
 
@@ -412,7 +412,7 @@ n: ROUND ONE: *FIGHT!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"});`
 
-h: Huh, las publicaciones de Facebook dicen que hay una fiesta este fin de semana.
+h: Huh, Facebook dice que hay una fiesta este fin de semana.
 
 `bb({eyes:"uncertain"});`
 
@@ -420,21 +420,21 @@ b: ¿No será esa loca que hace una fiesta *cada* semana?
 
 `bb({eyes:"uncertain_right"});`
 
-b: ¿Que vacío está tratando de llenar? ¡Debe estar profundamente arruinada por dentro!
+b: ¿Qué vacío está tratando de llenar? ¡Debe estar profundamente arruinada por dentro!
 
 `hong({eyes:"surprise"});`
 
-h: ...y tengo una invitación?
+h: ...y estoy invitado?
 
 `bb({eyes:"fear", mouth:"normal"});`
 
 b: Oh bien, entonces
 
-[¡Di que si! ¡O moriremos de soledad!](#act1c_loner)
+[¡Di que sí! ¡O moriremos de soledad!](#act1c_loner)
 
 [¡No! ¡Está lleno de drogas venenosas!](#act1c_drugs)
 
-[Ignóralo, solo deprimimos las fiestas.](#act1c_sad)
+[Ignóralo, sólo deprimimos las fiestas.](#act1c_sad)
 
 # act1c_loner
 
@@ -472,7 +472,7 @@ b: ¡Así que sí! ¡Debemos ir a esa fiesta!
 {{/if}}
 
 {{if _.parasite}}
-b: Solo lleva tu laptop, así podemos buscar trabajo y no ser un paracito de la sociedad.
+b: Sólo lleva tu laptop, así podemos buscar trabajo y no ser un parásito de la sociedad.
 {{/if}}
 
 {{if _.whitebread}}
@@ -506,11 +506,11 @@ b: O aún peor... PAN BLANCO
 {{/if}}
 
 {{if _.whitebread}}
-b: ¡Tendremos una sobredosis de metanfetamina y pan blanco tan grande que no podrán meter nuestro cuerpo gordo en el horno de cremación!
+b: ¡Tendremos una sobredosis de metanfetamina y pan blanco tan grande que no podrán meter nuestro gordo cuerpo en el horno de cremación!
 {{/if}}
 
 {{if !_.whitebread}}
-b: ¡Tendremos una sobredosis de tantas drogas que nuestro enterrador se preguntará como es que nuestro cuerpo *ya estaba* embalsamado!
+b: ¡Tendremos una sobredosis de tantas drogas que nuestro enterrador se preguntará cómo es que nuestro cuerpo *ya estaba* embalsamado!
 {{/if}}
 
 ```
@@ -521,7 +521,7 @@ attack("18p", "harm");
 (...2500)
 
 {{if _.parasite}}
-b: Además, no podemos ir ¡Tenemos que trabajar o seremos un horrible paracito de la sociedad!
+b: Además, no podemos ir ¡Tenemos que trabajar o seremos un horrible parásito de la sociedad!
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
