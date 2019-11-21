@@ -14,13 +14,13 @@
 
 `clearText()`
 
-n3: Antes de comenzar, ¿Como te gustaría leer?
+n3: Antes de comenzar, ¿cómo te gustaría leer?
 
 `publish("show_options_bottom")`
 
 # intro-start-2
 
-n3: Ahora empezemos nuestra história...
+n3: Ahora empecemos con nuestra historia...
 
 ```
 publish("hide_tabs");
@@ -53,7 +53,7 @@ music('battle', {volume:0.5});
 
 n: Y ESTA ES SU ANSIEDAD
 
-n: _TU_ ERES LA ANSIEDAD
+n: _TÚ_ ERES LA ANSIEDAD
 
 (#act1_normal)
 
@@ -77,14 +77,14 @@ n: TU TRABAJO ES PROTEGER A TU HUMANO DEL *PELIGRO*
 
 `bb({eyes:"look", mouth:"small_lock", body:"fear"})`
 
-b: Gasp! ¡Estás tirando tu vida en Twiter! ¡Otra vez!
+b: ¡Grito ahogado! ¡Estás desperdiciando tu vida en Twiter! ¡Otra vez!
 
 ```
 bb({eyes:"normal", mouth:"normal", body:"normal"});
 hong({eyes:"annoyed"});
 ```
 
-h: Si, me pregunto por qué no me siento a escuchar mis pensamientos mas seguido.
+h: Sí, me pregunto por qué no me siento a escuchar mis pensamientos más seguido.
 
 `hong({eyes:"neutral"});`
 
@@ -94,7 +94,7 @@ n: ¡RÁPIDO! ¡DEBES PREVENIRLO DEL *PELIGRO*!
 bb({eyes:"look"});
 ```
 
-[¡Oh no, que historia tan horrible!](#act1d_news)
+[¡Oh no, qué historia tan horrible!](#act1d_news)
 
 [¡Oh no, ese tweet habla de *nosotros*!](#act1d_subtweet)
 
@@ -104,7 +104,7 @@ bb({eyes:"look"});
 
 `hong({mouth:"smile", eyes:"surprise"});`
 
-h: Heh ya that's cute, I--
+h: Ha, sí, es lindo, yo--
 
 ```
 hong({mouth:"shock", eyes:"shock"});
